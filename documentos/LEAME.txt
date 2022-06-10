@@ -1,0 +1,31 @@
+-----------------------------------------------------
+----------- Ayesa Transaction Authorizer ------------
+-----------------------------------------------------
+
+Transaction Authorizer es un aplicativo basado en Java con Spring Framework que permite realizar la 
+creación de cuentas y transacciones bajo reglas de negocio predefinidas.
+
+
+--- Requisitos de funcionamiento ---
+
+* Entorno de Desarrollo Integrado (Visual Studio Code/ intellij/ Cualquiera de su preferencia)
+* Herramienta de Generación Peticiones API's (Postman)
+* Git
+
+--- Proceso de Instalación ---
+
+* Clonar el repositorio en equipo de pruebas con el siguiente comando:
+
+	git clone https://github.com/NicolasEduardoOrtiz/prueba-tecnica.git
+
+* Levantar el proyecto con puerto ":8080" a través de IDE de preferencia.
+
+--- Proceso de Pruebas ---
+
+* Ingresar al aplicativo POSTMAN e importar el archivo "AYESA.postman_collection.json" ubicado en
+  la ruta "src/postman/AYESA.postman_collection.json"
+
+* El archivo importado contiene dos pruebas de peticiones de método POST (Account y Transaction),
+  con los cuales podrá crear cuentas y generar transacciones a las mismas.
+
+
